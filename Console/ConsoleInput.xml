@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Input>
+	<Application>
+		<envProject>Automation</envProject>
+		<envAppName>SampleProject</envAppName>
+		<envAppVersion>1.0</envAppVersion>
+		<envAppURL>http://uat.destinationxl.com/mens-big-and-tall-store/</envAppURL>
+		<envSuiteName>ReleaseSuite-2018</envSuiteName>
+		<envFrameworkPath></envFrameworkPath>
+	</Application>
+	<System>
+		<PlatformType name="envPlatformType">
+			<value>Windows</value>
+			<value>Linux</value>
+			<value>Unix</value>
+		</PlatformType>
+		<Browsers name="envBrowsers">
+			<value>Google Chrome</value>
+			<value>Mozilla Firefox</value>
+		</Browsers>
+	</System>
+	<Suite>
+		<Package name="envPackage">
+			<value>com.ch.aut.desktop</value>
+		</Package>
+		<Classes name="envClasses">
+			<value>BrowseandShop</value>
+            <value>Cart</value>
+            <value>Checkout</value>
+            <value>Home</value>
+            <value>MyAccount</value>
+            <value>PDP</value>
+            <value>StoreFinder</value>
+            <value>Demo</value>
+		</Classes>
+	</Suite>
+	<Test>
+		<Module name="envModule">
+			<value>BrowseandShop</value>
+			<value>Cart</value>
+			<value>Checkout</value>
+			<value>HomePage</value>
+			<value>MyAccount</value>
+			<value>PDP</value>
+			<value>Search</value>
+			<value>StoreFinder</value>
+			<value>Demo</value>
+		</Module>
+		<Priority name="envPriority">
+			<value>P1-HIGH</value>
+			<value>P2-MEDIUM</value>
+			<value>P3-LOW</value>
+		</Priority>
+		<TestType name="envTestType">
+			<value>REGRESSION</value>
+			<value>FUNCTIONAL</value>
+		</TestType>
+		<Status name="envStatus">
+			<value>Ready.*</value>
+			<value>InProgress</value>
+		</Status>
+	</Test>
+</Input>

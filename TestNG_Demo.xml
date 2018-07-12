@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleProject" parallel="methods" thread-count="2">
+	<test name="ReleaseSuite-2018" parallel="methods" thread-count="2">
+		<groups>
+			<run />
+		</groups>
+		<classes>
+			<class name="com.ch.aut.desktop.Demo" />
+		</classes>
+	</test>
+	<parameter name="platform" value="Windows" />
+	<parameter name="browser" value="Google Chrome" />
+	<parameter name="url"
+		value="http://uat.destinationxl.com/mens-big-and-tall-store/" />
+</suite>
